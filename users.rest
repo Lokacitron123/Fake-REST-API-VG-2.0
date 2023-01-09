@@ -1,0 +1,40 @@
+
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "id": "",
+    "firstname": "Knut",
+    "lastname": "Vking Chad",
+    "occupation": "Viking",
+    "age": 53
+}
+
+
+###
+GET http://localhost:3000/api/users
+
+###
+
+GET http://localhost:3000/api/users/7
+
+
+###
+
+PUT http://localhost:3000/api/users/5
+Content-Type: application/json
+
+ {
+     "firstname": "Erik",
+     "lastname": "Melker Knutsson",
+     "occupation": "Usel programmerare",
+     "age": 23
+}
+
+
+###
+
+DELETE http://localhost:3000/api/users/5
+
+
+###
